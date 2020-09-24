@@ -1,0 +1,427 @@
+div, p, input, button, form, span, a, ul, li
+	box-sizing: border-box
+	padding: 0
+	margin: 0
+
+h1, h2, h3, h4, h5, h6
+	margin: 0
+
+body
+	margin: 0
+	padding: 0
+
+.container
+	width: 1160px
+	margin: 0 auto
+
+.header
+	background: url("../img/backgraund_sity.jpg") center (center / cover) no-repeat
+	height: 896px
+	margin: 0
+	padding: 50px 0 209px 0
+	box-sizing: border-box
+	nav
+		display: flex
+		align-items: center
+	&_logo 
+		h2
+			color: #fde428
+			font-size: 45px
+			font-weight: 700
+	&_sublogo
+		color: #ffffff
+		font-size: 12px
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: 3.6px
+		margin-left: 6px
+	&_icon
+		display: flex
+		justify-content: center
+		align-items: center
+		i
+			margin-left: 5px
+			letter-spacing: 0.56px
+			color: #fff
+	&_row
+		display: flex
+		margin-left: auto
+	&_menu
+		margin-top: 6px
+		display: flex
+		list-style-type: none
+		letter-spacing: 0.56px
+		li a
+			text-decoration: none
+			text-transform: uppercase
+			color: #ffffff
+			font-size: 14px
+			font-weight: 400
+			padding-right: 34px
+			&:hover
+				color: #807a3b
+	&_border
+		display: inline-block clearfix
+		width: 500px
+		margin-top: 225px
+		margin-left: auto
+	&_block
+		border: 10px solid #fde428
+		border-left: none
+		padding: 40px
+		float: right
+		height: 378px
+		width: 299px
+	&_text
+		width: 125%
+		margin-left: -109%
+		margin-top: 40px
+		margin-bottom: 40px
+		position: relative
+		color: #fff
+		text-align: right
+		font-size: 23px
+		font-weight: 700
+		line-height: 51px
+		&::before
+			content: ''
+			position: absolute
+			left: 228px
+			bottom: 100%
+			width: 10px
+			height: 84px
+			background: #fde428
+			margin-left: -40px
+		&::after
+			content: ''
+			position: absolute
+			left: 228px
+			top: 143%
+			width: 10px
+			height: 69px
+			background: #fde428
+			margin-left: -40px
+	&_lirn a
+		color: #fde428
+		font-size: 18px
+		font-weight: 700
+		text-transform: uppercase
+		margin-top: 40%
+		margin-left: -50%
+		position: relative
+		&::before
+			content: ''
+			position: absolute
+			left: 82%
+			bottom: 140%
+			width: 10px
+			height: 30px
+			background: #fde428
+			margin-left: -40px
+	&_previous
+		display: flex
+		align-items: center
+		position: relative
+		margin-top: 393px
+		color: #fde428
+		font-size: 12px
+		font-weight: 400
+		line-height: 52.71px
+		text-transform: uppercase
+		letter-spacing: 0.48px
+		a
+			text-decoration: none
+			i
+				color: #fde428
+				margin: 0 20px
+				font-size: 22px
+				display: flex
+
+.info
+	&_one
+		display: flex
+		position: relative
+	&_yellow
+		position: relative
+		margin-left: 240px
+		width: 270px
+		height: 524px
+		background-color: #fde428
+		opacity: 0.98
+		z-index: 1
+	&_grey
+		position: absolute
+		width: 499px
+		height: 326px
+		box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3)
+		background-color: #a1a1a1
+		z-index: 2
+		top: 98px
+		right: 0
+	&_two
+		display: flex
+		margin-bottom: 110px
+	&_static
+		margin-top: 110px
+		margin-right: 67px
+
+.information_text
+	width: 532px
+	padding-top: 98px
+	h2
+		color: #002e5b
+		font-size: 31px
+		font-weight: 700
+		line-height: 31px
+		text-transform: uppercase
+	.information_rapid
+		padding-top: 27px
+		padding-bottom: 20px
+		color: #666666
+		font-size: 21px
+		font-weight: 400
+		line-height: 25px
+	p
+		color: #333333
+		font-size: 16px
+		font-weight: 400
+		line-height: 25px
+	a
+		color: #002e5b
+		font-size: 16px
+		font-weight: 700
+		text-transform: uppercase
+		text-decoration: none
+		border-bottom: 1px solid #000
+
+.plan
+	background-color: #002e5b
+	&_block
+		display: flex
+		align-items: center
+		height: 91px
+	&_text
+		color: #ffffff
+		font-size: 21px
+		font-weight: 400
+	&_botton
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-left: 464px
+		width: 161px
+		height: 44px
+		border-radius: 3px
+		background-color: #fde428
+		color: #002e5b
+		font-size: 16px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		cursor: pointer
+
+
+
+.popular
+	&_title
+		.information_text
+			text-align: center
+			margin: 0 auto
+	&_block
+		display: flex
+		justify-content: space-between
+	&_one
+		width: 370px
+	&_blue
+		width: 370px
+		height: 191px
+		background-color: #69d2e7
+		margin: 36px 0 41px 0
+	&_green
+		background-color: #add478
+	&_orange
+		background-color: #f49f77
+	h2 
+		color: #002e5b
+		font-size: 21px
+		font-weight: 700
+		text-transform: uppercase
+	p 
+		color: #333333
+		font-size: 16px
+		font-weight: 400
+		line-height: 25px
+
+.numb
+	margin-top: 90px
+	height: 359px
+	background-color: #002e5b
+	display: flex
+	align-items: center
+	&_block
+		display: flex
+		justify-content: space-around
+	&_text
+		display: inline-block
+		text-align: center
+	&_numeral
+		color: #ffffff
+		font-size: 48px
+		font-weight: 400
+		text-transform: uppercase
+		letter-spacing: 12px
+	&_subnumeral
+		margin-top: 30px
+		color: #ffffff
+		font-size: 14px
+		font-weight: 400
+		text-transform: uppercase
+		letter-spacing: 2.8px
+
+.london
+	display: flex
+	&_block
+		display: flex
+		justify-content: space-between
+		position: relative
+	&_video
+		position: relative
+	&_yellow
+		margin-left: 115px
+		width: 270px
+		height: 525px
+		background-color: #fde428
+		opacity: 0.98
+	&_blue
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-top: -430px
+		width: 499px
+		height: 326px
+		box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3)
+		background-color: #002e5b
+		position: absolute
+	img
+		cursor: pointer
+
+.text
+	text-align: center
+	height: 540px
+	background-color: #002e5b
+	position: relative
+	&_quote
+		padding-top: 125px
+		color: #ffffff
+		font-size: 48px
+		font-weight: 400
+	p
+		padding-top: 48px
+		margin: 0 auto
+		text-align: center
+		width: 899px
+		color: #ffffff
+		font-size: 20px
+		font-weight: 400
+		line-height: 37.94px
+	&_sam
+		padding-top: 75px
+		color: #ffffff
+		font-size: 14px
+		font-weight: 700
+		text-transform: uppercase
+		&::before
+			content: ''
+			position: absolute
+			width: 20px
+			height: 2px
+			background-color: #ffffff
+			left: 45%
+			bottom: 75px
+		&::after
+			content: ''
+			position: absolute
+			width: 20px
+			height: 2px
+			background-color: #ffffff
+			right: 45%
+			bottom: 75px
+
+.map
+	.information_text
+		text-align: center
+		margin: 0 auto
+		margin-bottom: 44px
+	&_block
+		display: flex
+		justify-content: space-between
+		padding-bottom: 144px
+		img
+			cursor: pointer
+	&_text
+		position: relative
+		i 
+			position: absolute
+			left: 40px
+			color: #002e5b
+			font-size: 16px
+		h2
+			display: block
+			margin-top: 41px
+			margin-left: 38px
+			color: #002e5b
+			font-size: 16px
+			font-weight: 700
+			line-height: 13.82px
+			text-transform: uppercase
+	&_address
+		margin-top: 26px
+		margin-left: 74px
+		color: #002e5b
+		font-size: 16px
+		font-weight: 400
+		cursor: pointer
+	&_phone
+		margin-top: 17px
+		margin-left: 74px
+		color: #002e5b
+		font-size: 16px
+		font-weight: 400
+		line-height: 21p
+		cursor: pointer
+		i  
+			left: 41px
+	&_letter
+		margin-top: 20px
+		margin-left: 74px
+		color: #002e5b
+		font-size: 16px
+		font-weight: 400
+		line-height: 21p
+		cursor: pointer
+		i 
+			left: 38px
+
+.footer
+	height: 81px
+	background-color: #002e5b
+	&_block
+		padding-top: 32px
+		display: flex
+		justify-content: space-between
+	&_text
+		color: #ffffff
+		font-size: 16px
+		font-weight: 400
+		span
+			color: #fde52c
+			cursor: pointer
+	&_icons
+		width: 130px
+		font-size: 16px
+		font-weight: 400
+		a 
+			text-decoration: none
+			color: #fbfbfb
+		i 
+			padding-right: 15px
